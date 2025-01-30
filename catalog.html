@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Каталог курсов</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="#">Каталог курсов</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="course-filter">
+    <select id="category-filter">
+      <option value="all">Все курсы</option>
+      <option value="design">Дизайн</option>
+      <option value="programming">Программирование</option>
+    </select>
+  </section>
+
+  <section id="course-list" class="courses">
+    <div class="course-card">
+      <h3>Курс по веб-разработке</h3>
+      <p>Описание курса</p>
+    </div>
+    <div class="course-card">
+      <h3>Курс по дизайну</h3>
+      <p>Описание курса</p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

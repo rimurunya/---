@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Онлайн Университет</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Навигация -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Главная</a></li>
+        <li><a href="http://127.0.0.1:5500/catalog.html">Каталог курсов</a></li>
+        <li><a href="#contact">Контакты</a></li>
+        <li><a href="http://127.0.0.1:5500/login.html" class="login-btn">Вход</a></li>
+        <li><a href="http://127.0.0.1:5500/register.html" class="register-btn">Регистрация</a></li>
+        <li><a href="http://127.0.0.1:5500/profile.html">Профиль</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Презентация -->
+  <section id="home" class="hero">
+    <h1>Добро пожаловать в Онлайн Университет</h1>
+    <p>Учитесь на своих условиях</p>
+  </section>
+
+  <!-- Популярные курсы -->
+  <section id="courses" class="courses">
+    <h2>Популярные курсы</h2>
+    <div class="course-cards">
+      <div class="course-card">
+        <img src="course1.jpg" alt="Курс 1">
+        <h3>Курс 1</h3>
+        <p>Курс по веб-разработке</p>
+        <button class="btn">Записаться</button>
+      </div>
+      <div class="course-card">
+        <img src="course2.jpg" alt="Курс 2">
+        <h3>Курс 2</h3>
+        <p>Курс по дизайну</p>
+        <button class="btn">Записаться</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Личный кабинет -->
+  <section id="student" class="student">
+    <h2>Личный кабинет</h2>
+    <div class="progress-bar">
+      <div class="progress" style="width: 60%"></div>
+    </div>
+    <p>Ваш прогресс: 60%</p>
+  </section>
+
+  <!-- Контакты -->
+  <section id="contact">
+    <h2>Контакты</h2>
+    <form>
+      <label for="message">Ваше сообщение</label>
+      <textarea id="message" name="message" rows="4" cols="50"></textarea>
+      <button type="submit">Отправить</button>
+    </form>
+    <div class="social-media">
+      <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F%3Flocale%3Dru_RU"><font color="blue">Facebook</font></a>
+      <a href="https://www.instagram.com/">><font color="blue">Instagram</font></a>
+      <a href="https://x.com/?mx=2">><font color="blue">Twitter</font></a>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
